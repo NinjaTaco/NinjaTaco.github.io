@@ -3,33 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connor Hoglund</title>
+    <title>Connor Hoglund | Cybersecurity Engineer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section class="intro fun-intro">
+        <img src="Connor_Hoglund_Badge_Photo.jpg" alt="Connor Hoglund badge photo" class="intro-photo">
+        <div class="intro-text">
+            <h1>Connor Hoglund</h1>
+            <h2>Cybersecurity Engineer</h2>
+            <p id="typewriter"></p>
+        </div>
+    </section>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="center-nav">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
+    <br>
     <main>
-        <section id="home">
-            <h1>Welcome to My Website</h1>
-            <p>"Wow what a nice website" - no one at this point.</p>
-            <p>Please check back in some time, as I am redoing this page with Next.JS!</p>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a results-driven cybersecurity analyst with a Bachelor of Science in Computer Science and a strong foundation in programming and system administration. Proficient in Python and C++, with experience in JavaScript, Java, R, and C. Skilled in troubleshooting and managing Linux systems, with expertise in Identity and Access Management (IAM). Keen on driving secure and efficient IT solutions with a focus on automation. Committed to continuous professional development and eager to expand my skill domain to include artificial intelligence to apply my learnings to the field of cybersecurity. </p>
-        </section>
-        <section id="services">
-            <h2>Contact</h2>
-            <p><a href="https://www.linkedin.com/in/connorhoglund/">LinkedIn</a></p>
+        <section id="portfolio" class="fade-in">
+            <div class="portfolio-title">Portfolio</div>
+            <div class="portfolio-grid">
+                <div class="project-card full-width">
+                    <div class="project-title">Security Dashboard</div>
+                    <div class="project-desc">A real-time dashboard for monitoring security events and alerts, built with pure JS and REST APIs.</div>
+                    <div class="project-details">
+                        <ul>
+                            <li>Live event feed with filtering and search</li>
+                            <li>Role-based access control</li>
+                            <li>Customizable alert thresholds</li>
+                        </ul>
+                        <a class="github-link" href="https://github.com/example/security-dashboard" target="_blank" title="View on GitHub">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card full-width">
+                    <div class="project-title">Vulnerability Scanner</div>
+                    <div class="project-desc">A lightweight tool to scan web applications for common vulnerabilities and misconfigurations.</div>
+                    <div class="project-details">
+                        <ul>
+                            <li>OWASP Top 10 coverage</li>
+                            <li>Exportable scan reports (PDF/CSV)</li>
+                            <li>Automated scheduled scans</li>
+                        </ul>
+                        <a class="github-link" href="https://github.com/example/vuln-scanner" target="_blank" title="View on GitHub">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card full-width">
+                    <div class="project-title">Password Manager</div>
+                    <div class="project-desc">A secure, offline password manager with encryption and a simple UI.</div>
+                    <div class="project-details">
+                        <ul>
+                            <li>256-bit AES encryption</li>
+                            <li>Biometric unlock support</li>
+                            <li>Cross-device import/export</li>
+                        </ul>
+                        <a class="github-link" href="https://github.com/example/password-manager" target="_blank" title="View on GitHub">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div>Contact: <a href="mailto:connor.hoglund@email.com" style="color:var(--accent);text-decoration:none;">connor.hoglund@email.com</a></div>
+        <div class="socials">
+            <a href="https://github.com/NinjaTaco" target="_blank" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/connorhoglund" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+        <div style="margin-top:0.5rem;">&copy; 2025 Connor Hoglund</div>
+    </footer>
+    <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href.startsWith('#')) {
+                const target = document.querySelector(href);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    });
+
+    // Highlight nav link for current section
+    const navLinks = document.querySelectorAll('nav a');
+    const sections = Array.from(navLinks).map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+    function highlightNav() {
+        let index = sections.length - 1;
+        for (let i = 0; i < sections.length; i++) {
+            if (window.scrollY + 80 < sections[i].offsetTop) {
+                index = i - 1;
+                break;
+            }
+        }
+        navLinks.forEach((link, i) => link.classList.toggle('active', i === index));
+    }
+    window.addEventListener('scroll', highlightNav);
+    window.addEventListener('DOMContentLoaded', highlightNav);
+
+    // Fade-in effect for content as user scrolls
+    function fadeInOnScroll() {
+        document.querySelectorAll('.fade-in, .project-card').forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 60) {
+                el.classList.add('visible');
+            }
+        });
+    }
+    window.addEventListener('scroll', fadeInOnScroll);
+    window.addEventListener('DOMContentLoaded', fadeInOnScroll);
+
+    // Fun typewriter effect for intro
+    const typewriter = document.getElementById('typewriter');
+    const phrases = [
+        'Building secure systems.',
+        'Defending digital assets.',
+        'Empowering safe online experiences.',
+        'Let\'s make the web safer!'
+    ];
+    let twIndex = 0, charIndex = 0, deleting = false;
+    function typeLoop() {
+        if (!typewriter) return;
+        const phrase = phrases[twIndex];
+        if (!deleting) {
+            typewriter.textContent = phrase.slice(0, ++charIndex);
+            if (charIndex === phrase.length) {
+                deleting = true;
+                setTimeout(typeLoop, 1200);
+                return;
+            }
+        } else {
+            typewriter.textContent = phrase.slice(0, --charIndex);
+            if (charIndex === 1) {
+                deleting = false;
+                twIndex = (twIndex + 1) % phrases.length;
+            }
+        }
+        setTimeout(typeLoop, deleting ? 40 : 80);
+    }
+    typeLoop();
+    </script>
 </body>
 </html>
