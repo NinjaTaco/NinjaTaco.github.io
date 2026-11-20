@@ -1,158 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connor Hoglund | Cybersecurity Engineer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <section class="intro fun-intro">
-        <img src="Connor_Hoglund_Badge_Photo.jpg" alt="Connor Hoglund badge photo" class="intro-photo">
-        <div class="intro-text">
-            <h1>Connor Hoglund</h1>
-            <h2>Cybersecurity Engineer</h2>
-            <p id="typewriter"></p>
-        </div>
-    </section>
-    <header>
-        <nav class="center-nav">
-            <a href="#home">Home</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <br>
-    <main>
-        <section id="portfolio" class="fade-in">
-            <div class="portfolio-title">Portfolio</div>
-            <div class="portfolio-grid">
-                <div class="project-card full-width">
-                    <div class="project-title">Security Dashboard</div>
-                    <div class="project-desc">A real-time dashboard for monitoring security events and alerts, built with pure JS and REST APIs.</div>
-                    <div class="project-details">
-                        <ul>
-                            <li>Live event feed with filtering and search</li>
-                            <li>Role-based access control</li>
-                            <li>Customizable alert thresholds</li>
-                        </ul>
-                        <a class="github-link" href="https://github.com/example/security-dashboard" target="_blank" title="View on GitHub">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-card full-width">
-                    <div class="project-title">Vulnerability Scanner</div>
-                    <div class="project-desc">A lightweight tool to scan web applications for common vulnerabilities and misconfigurations.</div>
-                    <div class="project-details">
-                        <ul>
-                            <li>OWASP Top 10 coverage</li>
-                            <li>Exportable scan reports (PDF/CSV)</li>
-                            <li>Automated scheduled scans</li>
-                        </ul>
-                        <a class="github-link" href="https://github.com/example/vuln-scanner" target="_blank" title="View on GitHub">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-card full-width">
-                    <div class="project-title">Password Manager</div>
-                    <div class="project-desc">A secure, offline password manager with encryption and a simple UI.</div>
-                    <div class="project-details">
-                        <ul>
-                            <li>256-bit AES encryption</li>
-                            <li>Biometric unlock support</li>
-                            <li>Cross-device import/export</li>
-                        </ul>
-                        <a class="github-link" href="https://github.com/example/password-manager" target="_blank" title="View on GitHub">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.091-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .267.18.577.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"></path></svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div>Contact: <a href="mailto:connor.hoglund@email.com" style="color:var(--accent);text-decoration:none;">connor.hoglund@email.com</a></div>
-        <div class="socials">
-            <a href="https://github.com/NinjaTaco" target="_blank" aria-label="GitHub">GitHub</a>
-            <a href="https://linkedin.com/in/connorhoglund" target="_blank" aria-label="LinkedIn">LinkedIn</a>
-        </div>
-        <div style="margin-top:0.5rem;">&copy; 2025 Connor Hoglund</div>
-    </footer>
-    <script>
-    // Smooth scroll for nav links
-    document.querySelectorAll('nav a').forEach(link => {
-        link.addEventListener('click', function(e) {
-            const href = this.getAttribute('href');
-            if (href.startsWith('#')) {
-                const target = document.querySelector(href);
-                if (target) {
-                    e.preventDefault();
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            }
-        });
-    });
-
-    // Highlight nav link for current section
-    const navLinks = document.querySelectorAll('nav a');
-    const sections = Array.from(navLinks).map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
-    function highlightNav() {
-        let index = sections.length - 1;
-        for (let i = 0; i < sections.length; i++) {
-            if (window.scrollY + 80 < sections[i].offsetTop) {
-                index = i - 1;
-                break;
-            }
-        }
-        navLinks.forEach((link, i) => link.classList.toggle('active', i === index));
-    }
-    window.addEventListener('scroll', highlightNav);
-    window.addEventListener('DOMContentLoaded', highlightNav);
-
-    // Fade-in effect for content as user scrolls
-    function fadeInOnScroll() {
-        document.querySelectorAll('.fade-in, .project-card').forEach(el => {
-            const rect = el.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 60) {
-                el.classList.add('visible');
-            }
-        });
-    }
-    window.addEventListener('scroll', fadeInOnScroll);
-    window.addEventListener('DOMContentLoaded', fadeInOnScroll);
-
-    // Fun typewriter effect for intro
-    const typewriter = document.getElementById('typewriter');
-    const phrases = [
-        'Building secure systems.',
-        'Defending digital assets.',
-        'Empowering safe online experiences.',
-        'Let\'s make the web safer!'
-    ];
-    let twIndex = 0, charIndex = 0, deleting = false;
-    function typeLoop() {
-        if (!typewriter) return;
-        const phrase = phrases[twIndex];
-        if (!deleting) {
-            typewriter.textContent = phrase.slice(0, ++charIndex);
-            if (charIndex === phrase.length) {
-                deleting = true;
-                setTimeout(typeLoop, 1200);
-                return;
-            }
-        } else {
-            typewriter.textContent = phrase.slice(0, --charIndex);
-            if (charIndex === 1) {
-                deleting = false;
-                twIndex = (twIndex + 1) % phrases.length;
-            }
-        }
-        setTimeout(typeLoop, deleting ? 40 : 80);
-    }
-    typeLoop();
-    </script>
-</body>
-</html>
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Connor Hoglund · Personal filesystem</title>
+<style>
+:root{color-scheme:dark;--bg:#11151d;--side:#161b24;--ink:#f1f4fb;--dim:#aab6c8;--edge:#343f50;--active:#29384f;--accent:#adccff;--sheet:#1b222d;font:16px/1.5 "Instrument Sans",system-ui,sans-serif}
+:root.light{color-scheme:light;--bg:#f7f9fc;--side:#edf1f7;--ink:#182436;--dim:#526174;--edge:#ccd5e1;--active:#dce8fc;--accent:#27538b;--sheet:#fff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink)}button,a,input{font:inherit;color:inherit}button{cursor:pointer;background:none;border:0}a{text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}button:hover,a:hover{color:var(--accent)}[hidden]{display:none!important}.mono,small,.tag,#path,#console,input{font-family:"IBM Plex Mono",Consolas,monospace}small,.tag{font-size:.79rem;color:var(--dim)}aside{position:fixed;inset:0 auto 0 0;width:230px;background:var(--side);border-right:1px solid var(--edge);padding:26px 15px;display:flex;flex-direction:column}.brand{display:flex;align-items:center;gap:12px;padding:0 8px;font-weight:650}.mark{background:#b2cffa;color:#17263f;display:grid;place-items:center;width:36px;height:36px;border-radius:10px;font:bold 18px Consolas,monospace}.label{margin:48px 12px 12px;text-transform:uppercase;letter-spacing:.13em}.nav{display:grid;gap:4px}.nav button{display:flex;align-items:center;gap:13px;text-align:left;padding:10px 13px;border-radius:7px;font-size:.94rem}.nav button[aria-current=true]{background:var(--active);color:var(--accent)}i{width:18px;display:inline-block;font:18px Consolas,monospace}.bottom{margin-top:auto;border-top:1px solid var(--edge);padding:18px 10px 0}.shell{margin-left:230px}header{position:sticky;top:0;z-index:4;background:var(--bg);min-height:65px;border-bottom:1px solid var(--edge);display:flex;align-items:center;gap:12px;padding:8px clamp(16px,4vw,60px)}#path{color:var(--dim);font-size:.85rem;margin-right:auto}.control{border:1px solid var(--edge);border-radius:7px;padding:7px 11px;background:var(--sheet);white-space:nowrap}main{max-width:1240px;margin:auto;padding:36px clamp(16px,4vw,60px) 64px}.hero{position:relative;isolation:isolate;overflow:hidden;background:#1b2a40;color:#f4f8ff;border:1px solid #41536e;border-radius:16px;padding:clamp(25px,4vw,60px);min-height:335px;display:flex;flex-direction:column;justify-content:center}.hero canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-2}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,#17263cf7 5%,#17263c9c 48%,transparent 75%);z-index:-1}.hero small{color:#bed5fb}.hero h1{font-size:clamp(48px,6vw,88px);line-height:.95;letter-spacing:-.07em;font-weight:550;margin:19px 0}.hero p{color:#d1dced;margin:0}.section-head{display:flex;align-items:baseline;justify-content:space-between;margin:32px 0 13px}.section-head h2{font-size:1.27rem;letter-spacing:-.04em;margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card,.row{background:var(--sheet);border:1px solid var(--edge);border-radius:10px;text-align:left}.card{padding:20px;display:grid;gap:4px}.card:hover,.row:hover{border-color:var(--accent)}.folder{display:block;width:33px;height:23px;background:var(--t);border-radius:3px;position:relative;margin:7px 0 14px}.folder:before{content:"";position:absolute;top:-4px;width:14px;height:6px;background:inherit;border-radius:3px}.card strong{font-size:1.08rem}.rows{display:grid;gap:7px}.row{padding:13px 17px;display:flex;align-items:center;gap:12px;width:100%}.row small{margin-left:auto}.article{max-width:720px}.article h1,#console h1{font-size:clamp(32px,5vw,60px);letter-spacing:-.055em;line-height:1.1}.article p{font-size:1.1rem;line-height:1.7}.article .rows{margin-top:25px}#console{background:var(--sheet);border:1px solid var(--edge);border-radius:14px;padding:clamp(18px,3vw,36px)}#console h1{font-family:system-ui;margin-top:0}.keys{display:flex;flex-wrap:wrap;gap:8px}.keys button{border:1px solid var(--edge);border-radius:5px;padding:5px 9px;color:var(--accent)}pre{white-space:pre-wrap;overflow-wrap:anywhere;color:var(--dim);line-height:1.7}form{display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--accent)}input{background:var(--bg);border:1px solid var(--edge);border-radius:5px;padding:8px;min-width:100px;flex:1}#menu{display:none}
+@media(max-width:800px){aside{width:180px}.shell{margin-left:180px}.cards{gap:8px}.card{padding:13px}.hero{min-height:290px}}
+@media(max-width:650px){aside{top:61px;z-index:5;width:min(82vw,300px);display:none;box-shadow:12px 16px 30px #0004}aside.open{display:flex}.label{margin-top:25px}.shell{margin:0}#menu{display:block}header{min-height:61px;gap:7px;padding:8px 12px}#path{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.control{padding:7px 9px}main{padding-top:18px}.hero{min-height:295px}.hero h1{font-size:58px}.cards{grid-template-columns:1fr}.card{grid-template-columns:36px 1fr;align-items:center;column-gap:14px;padding:14px 16px}.folder{grid-row:span 2;margin:0}.card small{grid-column:2}.section-head{margin-top:24px}}
+</style>
+<aside id="sidebar"><div class="brand"><span class="mark">ch</span>Connor Hoglund</div><small class="label">Explorer</small><nav class="nav" id="nav"></nav><a class="bottom" href="https://github.com/NinjaTaco">GitHub profile ↗</a></aside>
+<div class="shell"><header><button class="control" id="menu" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">☰</button><span id="path"></span><button class="control" id="theme" aria-label="Switch theme"></button><button class="control mono" id="mode">›_ Terminal</button></header>
+<main><section id="browser"></section><section id="console" hidden><h1>Terminal</h1><p>Pick a command to try it, or type below. Choose Browse above to return.</p><div class="keys" id="keys"></div><pre id="log" role="log" aria-live="polite"></pre><form id="form"><label for="command" id="prompt"></label><input id="command" autocomplete="off" spellcheck="false" placeholder="Type a command"><button class="control">Run</button></form></section></main></div>
+<script>
+const $=id=>document.getElementById(id);
+const folders = {
+  "aboutme": [
+    "About me",
+    "Profile & introduction",
+    "#93b7ec"
+  ],
+  "experience": [
+    "Experience",
+    "Cybersecurity roles at Visa",
+    "#9aaade"
+  ],
+  "projects": [
+    "Projects",
+    "Tutor.Ag tutoring platform",
+    "#acbede"
+  ],
+  "skills": [
+    "Skills",
+    "Tools & practices",
+    "#94acc1"
+  ],
+  "education": [
+    "Education",
+    "Computer science degrees",
+    "#b1add6"
+  ],
+  "certifications": [
+    "Certifications",
+    "Security & cloud",
+    "#a8b9ca"
+  ]
+};
+const files = {
+  "aboutme/readme.md": [
+    "About Connor",
+    "Austin, Texas",
+    "I joined Visa as a Cybersecurity Analyst in June 2023. In February 2026, I was promoted to Cybersecurity Engineer on the governance, risk, and compliance team, where I support security audits.",
+    "I’m pursuing a master’s in computer science. My interests include AI and workflow automation."
+  ],
+  "experience/cybersecurity-engineer.md": [
+    "Cybersecurity Engineer",
+    "Visa Inc. · February 2026–present",
+    "Support SOC 2 Type II, PCI 3DS, PCI DSS, and PCI SSF audits on the governance, risk, and compliance (GRC) team."
+  ],
+  "experience/cybersecurity-analyst.md": [
+    "Cybersecurity Analyst",
+    "Visa Inc. · June 2023–February 2026",
+    "Led a zero-downtime migration of more than 4,000 users to time-limited, just-in-time access.",
+    "Automated role creation for role-based access control with Python, shortening delivery by five months and reducing project resource needs by 50%.",
+    "Established enterprise segregation-of-duties controls and defined requirements for automated enforcement. Retired legacy access models and revoked access for more than 500 dormant users.",
+    "Automated cybersecurity communications with PowerShell, accelerating delivery of more than 4,500 incident reports."
+  ],
+  "experience/outreach.md": [
+    "Cybersecurity career talk",
+    "National Society of Black Engineers · Texas A&M University",
+    "Spoke with 40 NSBE members about cybersecurity careers and working at Visa."
+  ],
+  "projects/tutor-ag.md": [
+    "Tutor.Ag",
+    "Full-stack tutoring application · May 2024",
+    "Built a tutoring platform with React and Node.js. Students and tutors can talk over audio or video, sketch on a shared whiteboard, and work together in a code editor.",
+    "Designed authentication and session management for multi-user tutoring sessions."
+  ],
+  "skills/toolkit.md": [
+    "Technical skills",
+    "Access management · Privileged access management, role-based access control, segregation of duties, SSH key management, Active Directory and SailPoint.",
+    "Automation · Python, PowerShell, Bash, SQL, Git and Linux administration.",
+    "Governance · Audit liaison work, incident response, ServiceNow and controls aligned with NIST CSF and PCI DSS."
+  ],
+  "education/degrees.md": [
+    "Education",
+    "The University of Texas · M.S. in Computer Science, expected December 2027.",
+    "Texas A&M University · B.S. in Computer Science, summa cum laude, May 2023."
+  ],
+  "certifications/credentials.md": [
+    "Certifications",
+    "CompTIA Security+ · Earned July 2024.",
+    "AWS Certified Cloud Practitioner · Earned May 2024."
+  ]
+};
+let loc='',terminal=false;const pathLabel=()=>loc?'~/'+loc:'~';
+const parent=p=>p.split('/').slice(0,-1).join('/');
+const children=p=>p?Object.keys(files).filter(k=>parent(k)===p):Object.keys(folders);
+function resolve(arg){let parts=/^(~|\/)/.test(arg)?[]:(files[loc]?parent(loc):loc).split('/').filter(Boolean);for(const s of arg.replace(/^~/,'').split('/')){if(s==='..')parts.pop();else if(s&&s!=='.')parts.push(s)}return parts.join('/')}
+function row(k){return '<button class="row" data-go="'+k+'"><span aria-hidden="true">▤</span>'+k.split('/').pop()+'<small>Markdown</small></button>'}
+function render(){const current=loc.split('/')[0];$('path').textContent=pathLabel();$('prompt').textContent=pathLabel()+' $';$('browser').hidden=terminal;$('console').hidden=!terminal;$('mode').textContent=terminal?'▦ Browse':'›_ Terminal';
+$('nav').innerHTML=['',...Object.keys(folders)].map((k,i)=>'<button data-go="'+k+'" aria-current="'+(current===k)+'"><i>'+['⌂','◷','▤','▱','⌘','◇','✧'][i]+'</i>'+(k?folders[k][0]:'Overview')+'</button>').join('');
+if(!loc){$('browser').innerHTML='<div class="hero"><canvas aria-hidden="true"></canvas><small>~/home</small><h1>Connor<br>Hoglund.</h1><p>Cybersecurity Engineer at Visa · Austin, TX</p></div><div class="section-head"><h2>Directories</h2><small>6 folders</small></div><div class="cards">'+Object.entries(folders).map(([k,f])=>'<button class="card" data-go="'+k+'"><span class="folder" style="--t:'+f[2]+'"></span><strong>'+k+'/</strong><small>'+f[1]+'</small></button>').join('')+'</div><div class="section-head"><h2>Pinned files</h2></div><div class="rows">'+['experience/cybersecurity-engineer.md','projects/tutor-ag.md'].map(row).join('')+'</div>';if(!terminal)requestAnimationFrame(terrain)}
+else{let f=files[loc];$('browser').innerHTML='<article class="article"><button class="control" data-go="'+parent(loc)+'">↑ Parent folder</button><h1>'+(f?f[0]:folders[loc][0])+'</h1>'+(f?f.slice(1).map(v=>'<p>'+v+'</p>').join(''):'<div class="rows">'+children(loc).map(row).join('')+'</div>')+'</article>'}}
+function terrain(){const c=document.querySelector('canvas');if(!c||!c.clientWidth)return;let w=c.width=c.clientWidth*2,h=c.height=c.clientHeight*2,g=c.getContext('2d');g.scale(w/1000,h/410);for(let j=0;j<73;j++){let t=j/72;g.beginPath();for(let x=0;x<=1004;x+=4){let y=186+230*t-115*Math.exp(-(((x-700-82*Math.sin(t*4))/180)**2))+35*Math.sin(x*.013+t*5)+17*Math.sin(x*.025+t*6)+4*Math.sin(x*.084+t*9);if(x===0)g.moveTo(x,y);else g.lineTo(x,y)}g.lineTo(1004,425);g.lineTo(0,425);g.closePath();g.fillStyle='#20334c';g.fill();g.strokeStyle='rgba(164,196,244,'+(.32+.49*Math.sin(t*3))+')';g.lineWidth=.9;g.stroke()}}
+function closeMenu(){$('sidebar').classList.remove('open');$('menu').setAttribute('aria-expanded','false')}
+function go(k){loc=k;closeMenu();render();window.scrollTo(0,0)}
+document.addEventListener('click',e=>{let b=e.target.closest('[data-go]');if(b){terminal=false;go(b.dataset.go)}else if(!e.target.closest('aside, #menu'))closeMenu()});
+$('menu').onclick=()=>$('menu').setAttribute('aria-expanded',String($('sidebar').classList.toggle('open')));
+function toggle(){terminal=!terminal;render();if(terminal&&!$('log').textContent)$('log').textContent=help;window.scrollTo(0,0)}
+$('mode').onclick=toggle;const help='ls         list this folder\ncd aboutme/ enter a folder (cd .. goes up)\ncat FILE   read a file\npwd        show your location\ntrail      discover a random file\nfortune    draw a fortune\nclear      clear the screen\nexit       return to browsing';
+const samples=['ls','cd ~/aboutme','cat ~/aboutme/readme.md','trail','fortune','help'];for(const s of samples){const b=document.createElement('button');b.textContent=s;b.onclick=()=>run(s);$('keys').append(b)}
+function run(line){if(!line.trim())return;let [cmd,...args]=line.trim().split(/\s+/),arg=args.join(' '),p=resolve(arg),before=pathLabel(),out='';
+switch(cmd){case 'help':out=help;break;case 'pwd':out=before;break;case 'ls':{let dir=arg?p:(files[loc]?parent(loc):loc);out=files[dir]?dir.split('/').pop():children(dir).map(k=>k.split('/').pop()+(folders[k]?'/':'')).join('   ')||'Folder not found.';break}
+case 'cd':p=arg?p:'';if(!p||Object.hasOwn(folders,p)){loc=p;out=pathLabel()}else out='Folder not found. Try ls.';break;
+case 'cat':out=Object.hasOwn(files,p)?files[p].join('\n\n'):'Choose a file with ls.';break;
+case 'trail':{let list=Object.keys(files);loc=list[Math.floor(Math.random()*list.length)];out=pathLabel()+'\n'+files[loc].join('\n');break}
+case 'fortune':out=['Every good map leaves room for a detour.','A README is a letter to your future self.','Take the scenic route through the source.'][Math.floor(Math.random()*3)];break;
+case 'clear':$('log').textContent='';return;case 'exit':toggle();return;default:out='Unknown command. Try help.'}
+$('log').textContent+='\n\n'+before+' $ '+line+'\n'+out;render();$('form').scrollIntoView({block:'nearest'})}
+$('form').onsubmit=e=>{e.preventDefault();run($('command').value);$('command').value=''};
+let pref;try{pref=localStorage.getItem('portfolio-theme')}catch{}function theme(light){document.documentElement.classList.toggle('light',light);$('theme').textContent=light?'☾':'☼';$('theme').setAttribute('aria-label','Switch to '+(light?'dark':'light')+' theme')}
+theme(pref?pref==='light':matchMedia('(prefers-color-scheme:light)').matches);$('theme').onclick=()=>{let light=!document.documentElement.classList.contains('light');theme(light);try{localStorage.setItem('portfolio-theme',light?'light':'dark')}catch{}};
+window.addEventListener('resize',terrain);document.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});render();
+</script></html>
